@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Spotlight Story View</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.css"
+            integrity="sha512-Aeqz1zfbRIQHDPsvEobXzaeXDyh8CUqRdvy6QBCQEbxIc/vazrTdpjEufMbxSW61+7a5vIDDuGh8z5IekVG0YA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./src/styles/main.css" />
+    </head>
+    <body>
+        <section class="spotlight-section">
+            <div class="swiper spotlight-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img-wrapper">
+                            <img src="./src/images/blog-icon.svg" alt="" />
+                            <h5 class="title">Blogs</h5>
+                        </div>
+                        <p class="description">Our AI experts build an autonomous AI tool</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-wrapper">
+                            <img src="./src/images/client-story-icon.svg" alt="" />
+                            <h5 class="title">Client Stories</h5>
+                        </div>
+                        <p class="description">Our AI experts build an autonomous AI tool</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-wrapper">
+                            <img src="./src/images/event-icon.svg" alt="" />
+                            <h5 class="title">Events</h5>
+                        </div>
+                        <p class="description">Our AI experts build an autonomous AI tool</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-wrapper">
+                            <img src="./src/images/publication-icon.svg" alt="" />
+                            <h5 class="title">Publications</h5>
+                        </div>
+                        <p class="description">Our AI experts build an autonomous AI tool</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-wrapper">
+                            <img src="./src/images/event-icon.svg" alt="" />
+                            <h5 class="title">Story</h5>
+                        </div>
+                        <p class="description">Our AI experts build an autonomous AI tool</p>
+                    </div>
+                </div>
+
+                <div class="swiper-navigation">
+                    <button class="swiper-button-prev"></button>
+                    <button class="swiper-button-next"></button>
+                </div>
+            </div>
+            <div class="popup">
+                <button class="popup-close-btn">
+                    <img src="./src/images/icon-close.svg" alt="" />
+                </button>
+                <div class="spotlight-container" data-story-autoplay-delay="5000">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide spotlight-slide">
+                            <div class="story-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-wrapper">
+                                            <img class="story" src="./src/images/spotlight-blog.png" alt="" />
+                                        </div>
+                                        <h5 class="story-heading">Blog</h5>
+                                        <div class="story-details">
+                                            <h6 class="story-title">BLog 1</h6>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <div class="cta-wrapper">
+                                                <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                            </div>
+                                            <div class="social-share-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <button class="icon-share" title="Share">Share</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-linkedin" title="Linkedin">Linkedin</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-twitter" title="Twitter">Twitter</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-instagram" title="Instagram">Instagram</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-wrapper">
+                                            <img class="story" src="https://placehold.jp/ff00ff/ffffff/255x461.png?text=BlogStory2" alt="" />
+                                        </div>
+                                        <h5 class="story-heading">Blog</h5>
+                                        <div class="story-details">
+                                            <h6 class="story-title">Blog 2</h6>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <div class="cta-wrapper">
+                                                <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                            </div>
+                                            <div class="social-share-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <button class="icon-share" title="Share">Share</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-linkedin" title="Linkedin">Linkedin</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-twitter" title="Twitter">Twitter</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-instagram" title="Instagram">Instagram</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-wrapper">
+                                            <img class="story" src="https://placehold.jp/e2ca32/ffffff/255x461.png?text=BlogStory3" alt="" />
+                                        </div>
+                                        <h5 class="story-heading">Blog</h5>
+                                        <div class="story-details">
+                                            <h6 class="story-title">Blog 3</h6>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <div class="cta-wrapper">
+                                                <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                            </div>
+                                            <div class="social-share-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <button class="icon-share" title="Share">Share</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-linkedin" title="Linkedin">Linkedin</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-twitter" title="Twitter">Twitter</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-instagram" title="Instagram">Instagram</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide spotlight-slide">
+                            <div class="story-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-wrapper">
+                                            <img class="story" src="./src/images/spotlight-client-story.png" alt="" />
+                                        </div>
+                                        <h5 class="story-heading">Client Story</h5>
+                                        <div class="story-details">
+                                            <h6 class="story-title">Apple</h6>
+                                            <h6 class="story-title">Apple</h6>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <div class="cta-wrapper">
+                                                <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                            </div>
+                                            <div class="social-share-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <button class="icon-share" title="Share">Share</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-linkedin" title="Linkedin">Linkedin</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-twitter" title="Twitter">Twitter</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-instagram" title="Instagram">Instagram</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide spotlight-slide">
+                            <div class="story-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-wrapper">
+                                            <img class="story" src="./src/images/spotlight-event.png" alt="" />
+                                        </div>
+                                        <h5 class="story-heading">Events</h5>
+                                        <div class="story-details">
+                                            <h6 class="story-title">Apple</h6>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <div class="cta-wrapper">
+                                                <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                            </div>
+                                            <div class="social-share-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <button class="icon-share" title="Share">Share</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-linkedin" title="Linkedin">Linkedin</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-twitter" title="Twitter">Twitter</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-instagram" title="Instagram">Instagram</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-wrapper">
+                                            <img class="story" src="https://placehold.jp/e2ca32/ffffff/255x461.png?text=E-Story2" alt="" />
+                                        </div>
+                                        <h5 class="story-heading">Events</h5>
+                                        <div class="story-details">
+                                            <h6 class="story-title">Apple</h6>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <div class="cta-wrapper">
+                                                <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                            </div>
+                                            <div class="social-share-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <button class="icon-share" title="Share">Share</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-linkedin" title="Linkedin">Linkedin</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-twitter" title="Twitter">Twitter</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-instagram" title="Instagram">Instagram</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide spotlight-slide">
+                            <div class="story-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-wrapper">
+                                            <img class="story" src="https://placehold.jp/e2ca32/ffffff/255x461.png?text=Pub-Story1" alt="" />
+                                        </div>
+                                        <h5 class="story-heading">Publications</h5>
+                                        <div class="story-details">
+                                            <h6 class="story-title">Apple</h6>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <div class="cta-wrapper">
+                                                <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                            </div>
+                                            <div class="social-share-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <button class="icon-share" title="Share">Share</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-linkedin" title="Linkedin">Linkedin</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-twitter" title="Twitter">Twitter</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-instagram" title="Instagram">Instagram</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-wrapper">
+                                            <img class="story" src="https://placehold.jp/e2ca32/ffffff/255x461.png?text=Pub-Story2" alt="" />
+                                        </div>
+                                        <h5 class="story-heading">Publications</h5>
+                                        <div class="story-details">
+                                            <h6 class="story-title">Apple</h6>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <div class="cta-wrapper">
+                                                <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                            </div>
+                                            <div class="social-share-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <button class="icon-share" title="Share">Share</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-linkedin" title="Linkedin">Linkedin</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-twitter" title="Twitter">Twitter</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-instagram" title="Instagram">Instagram</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide spotlight-slide">
+                            <div class="story-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-wrapper">
+                                            <img class="story" src="https://placehold.jp/e2ca32/ffffff/255x461.png?text=Story1" alt="" />
+                                        </div>
+                                        <div class="story-details">
+                                            <h6 class="story-title">Apple</h6>
+                                            <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                            <div class="cta-wrapper">
+                                                <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                            </div>
+                                            <div class="social-share-wrapper">
+                                                <ul>
+                                                    <li>
+                                                        <button class="icon-share" title="Share">Share</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-linkedin" title="Linkedin">Linkedin</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-twitter" title="Twitter">Twitter</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="icon-instagram" title="Instagram">Instagram</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="swiper-slide">
+                                  <div class="img-wrapper">
+                                      <img class="story" src="https://placehold.jp/e2ca32/ffffff/255x461.png?text=Story2" alt="">
+                                  </div>
+                                  <div class="story-details">
+                                      <h6 class="story-title">Apple</h6>
+                                      <p class="story-description">Innovate like no one's watching. Future-proof your apps. Get agile with DevSecOps. Smarten your business platforms.</p>
+                                      <div class="cta-wrapper">
+                                          <a href="https://www.google.com/" class="btn btn-learn-more">Learn More</a>
+                                      </div>
+                                      <div class="social-share-wrapper">
+                                          <ul>
+                                              <li><button class="icon-share" title="Share">Share</button></li>
+                                              <li><button class="icon-linkedin" title="Linkedin">Linkedin</button></li>
+                                              <li><button class="icon-twitter" title="Twitter">Twitter</button></li>
+                                              <li><button class="icon-instagram" title="Instagram">Instagram</button></li>
+                                          </ul>
+                                      </div>
+                                  </div>  
+                              </div> -->
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev spotlight-container-prev"></div>
+                    <div class="swiper-button-next spotlight-container-next"></div>
+                </div>
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.min.js"
+            integrity="sha512-3Ei7OPFo83kw3cPbDLeLhn/YF8tZB7Vs8sfli0B/KEekureL5eosDeshYFICCvt4K8i0yUil/lK3cSiic2Wjkg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="main.js"></script>
+    </body>
+</html>

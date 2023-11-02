@@ -1,0 +1,9 @@
+{
+  "liveServer.settings.port": 5501,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": true,
+  "javascript.validate.enable": true,
+  "prettier.tabWidth": 4
+}
+
+

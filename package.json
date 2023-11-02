@@ -1,0 +1,14 @@
+{
+    "name": "story-view",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Vaibhav Bhoir",
+    "license": "MIT",
+    "dependencies": {
+        "sass": "^1.69.4",
+        "scss": "^0.2.4"
+    },
+    "scripts": {
+        "dev": "sass src/styles/main.scss src/styles/main.css --watch"
+    }
+}
